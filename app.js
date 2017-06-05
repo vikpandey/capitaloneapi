@@ -21,7 +21,7 @@ app.set('view engine', 'jade');
 
 // Mongoose connection
 
-var url = 'mongodb://localhost:27017/capitalOne';
+var url = 'mongodb://vikas:abcd1234@ds111262.mlab.com:11262/capitalone';
 mongoose.connect(url);
 var db1 = mongoose.connection;
 //mongoose.connection();
